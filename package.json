@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-swatinem",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "my personal eslint config",
   "main": "index.js",
   "repository": {
@@ -13,10 +13,6 @@
   ],
   "author": "Arpad Borsos <arpad.borsos@googlemail.com>",
   "license": "LGPL-3.0",
-  "bugs": {
-    "url": "https://github.com/Swatinem/eslint-config-swatinem/issues"
-  },
-  "homepage": "https://github.com/Swatinem/eslint-config-swatinem#readme",
   "dependencies": {
     "eslint": "^1.5.0",
     "eslint-config-xo": "^0.6.0"

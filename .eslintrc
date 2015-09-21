@@ -1,5 +1,4 @@
 {
-  "extends": "xo",
   "env": {
     "browser": true,
     "node": true,
@@ -24,7 +23,7 @@
     "no-mixed-spaces-and-tabs": [2, "smart-tabs"],
     "no-multiple-empty-lines": [2, {max: 2}],
     "no-nested-ternary": 1,
-    "operator-linebreak": [2, "after", {"overrides": {"?": "before", ":": "before}}],
+    "operator-linebreak": [2, "after", {"overrides": {"?": "before", ":": "before"}}],
     "quotes": [2, "double", "avoid-escape"],
     "semi": [2, "never"],
 
@@ -33,7 +32,7 @@
     "generator-star-spacing": [2, {"before": false, "after": true}],
     "no-var": 2,
     "object-shorthand": [2, "always"],
-    "prefer-arrow-callback": 2
+    "prefer-arrow-callback": 2,
     "prefer-const": 2,
     "prefer-spread": 2,
     "prefer-reflect": 1,

@@ -19,6 +19,7 @@
     "block-spacing": [2, "always"],
     "brace-style": [2, "1tbs", { "allowSingleLine": true }],
     "indent": [2, 2],
+    "new-cap": [1, {"newIsCap": true, "capIsNew": false}],
     "no-inline-comments": 1,
     "no-mixed-spaces-and-tabs": [2, "smart-tabs"],
     "no-multiple-empty-lines": [2, {max: 2}],

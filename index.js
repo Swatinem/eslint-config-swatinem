@@ -5,7 +5,7 @@ const content = fs.readFileSync(path.resolve(__dirname, ".eslintrc"), "utf8")
 const config = Function(`return ${content}`)()
 const xo = require("eslint-config-xo")
 
-const exports = module.exports = Object.create(null)
+exports = module.exports = Object.create(null)
 
 Object.keys(xo).forEach(function (key) {
   exports[key] = assign(Object.create(null), xo[key], config[key])

@@ -26,6 +26,7 @@
     "operator-linebreak": [2, "after", {"overrides": {"?": "before", ":": "before"}}],
     "quotes": [2, "double", "avoid-escape"],
     "semi": [2, "never"],
+    "spaced-comment": 1,
 
     // ECMAScript 2015
     "arrow-parens": [2, "as-needed"],

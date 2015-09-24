@@ -24,6 +24,7 @@
     "no-mixed-spaces-and-tabs": [2, "smart-tabs"],
     "no-multiple-empty-lines": [2, {max: 2}],
     "no-nested-ternary": 1,
+    "one-var": 0,
     "operator-linebreak": [2, "after", {"overrides": {"?": "before", ":": "before"}}],
     "quotes": [2, "double", "avoid-escape"],
     "semi": [2, "never"],

@@ -9,18 +9,15 @@
     // Possible Errors
     "comma-dangle": [2, "always-multiline"],
     "no-constant-condition": 1,
-    "no-empty": 1,
-    "no-extra-parens": 1,
 
     // Best Practices
     "no-return-assign": [2, "except-parens"],
 
     // Stylistic Issues
     "block-spacing": [2, "always"],
-    "brace-style": [2, "1tbs", { "allowSingleLine": true }],
+    "brace-style": [2, "1tbs", {"allowSingleLine": true}],
     "indent": [2, 2],
     "new-cap": [1, {"newIsCap": true, "capIsNew": false}],
-    "no-inline-comments": 1,
     "no-mixed-spaces-and-tabs": [2, "smart-tabs"],
     "no-multiple-empty-lines": [2, {max: 2}],
     "no-nested-ternary": 1,
@@ -31,14 +28,16 @@
     "spaced-comment": 1,
 
     // ECMAScript 2015
-    "arrow-parens": [2, "as-needed"],
-    "generator-star-spacing": [2, {"before": false, "after": true}],
+    "arrow-body-style": 2,
+    "generator-star-spacing": [2, "after"],
     "no-var": 2,
     "object-shorthand": [2, "always"],
     "prefer-arrow-callback": 2,
     "prefer-const": 2,
-    "prefer-spread": 2,
     "prefer-reflect": 1,
+    "prefer-rest-params": 2,
+    "prefer-spread": 2,
     "prefer-template": 2,
+    "yield-star-spacing": [2, "after"],
   },
 }

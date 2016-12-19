@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-swatinem",
-  "version": "3.0.0-beta0",
+  "version": "3.0.0",
   "description": "my personal eslint config",
   "main": "index.js",
   "repository": {
